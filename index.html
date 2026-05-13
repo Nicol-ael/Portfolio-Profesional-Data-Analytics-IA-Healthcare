@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicol Escobar | Data Analyst & AI Healthcare</title>
+    <meta name="description" content="Portfolio profesional de Data Analyst enfocada en AI, Business Intelligence y Healthcare Analytics">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="scroll-progress"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Nicol<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
+                <li><a href="#focus" data-i18n="nav.focus">Áreas</a></li>
+                <li><a href="#experience" data-i18n="nav.experience">Trayectoria</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+                <li><a href="#ai" data-i18n="nav.ai">IA Nicol</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="https://wa.me/34671304754" target="_blank" class="btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <div class="lang-selector">
+                    <button class="lang-btn" id="langBtn">
+                        <span class="current-lang">ES</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <button class="lang-option active" data-lang="es">Español</button>
+                        <button class="lang-option" data-lang="en">English</button>
+                        <button class="lang-option" data-lang="fr">Français</button>
+                        <button class="lang-option" data-lang="de">Deutsch</button>
+                    </div>
+                </div>
+            </div>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="png.png.JPEG" alt="Nicol Escobar">
+                </div>
+                <p class="hero-label" data-i18n="hero.label">Data Analyst & AI Specialist</p>
+                <h1>Nicol <span class="accent">Escobar</span></h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Transformando datos en soluciones inteligentes para Healthcare y Business</p>
+                <div class="hero-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Marbella, España</span>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.cta">Contáctame</a>
+                    <a href="#projects" class="btn btn-outline" data-i18n="hero.projects">Ver Proyectos</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/nicolescobardatayhealthcare/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Nicol-ael" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:nicolescobar3330@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-ai" class="section section-soft">
+            <div class="container">
+                <h2 class="section-title" data-i18n="why.title">¿Por qué Healthcare + AI?</h2>
+                <div class="why-grid">
+                    <div class="why-card why-main">
+                        <div class="why-icon">
+                            <i class="fas fa-heart-pulse"></i>
+                        </div>
+                        <h3 data-i18n="why.card1.title">El puente entre clínica y tecnología</h3>
+                        <p data-i18n="why.card1.text">Mi formación clínica en Fonoaudiología me enseñó que los mejores resultados provienen de entender profundamente a las personas. Ahora combino ese enfoque humano con el poder de los datos y la IA para crear soluciones tecnológicas que realmente marcan la diferencia en la atención médica.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 data-i18n="why.card2.title">Datos con propósito</h3>
+                        <p data-i18n="why.card2.text">Cada dataset representa personas reales. Mi experiencia clínica me permite interpretar datos de salud con contexto y sensibilidad, asegurando que los análisis y modelos predictivos tengan impacto real en el bienestar de los pacientes.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 data-i18n="why.card3.title">Impacto medible</h3>
+                        <p data-i18n="why.card3.text">Transformo datos clínicos en dashboards accionables, automatizo procesos de análisis y creo modelos de IA que optimizan la toma de decisiones médicas, reduciendo tiempos y mejorando la calidad de atención.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="focus" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="focus.title">Focus Areas</h2>
+                
+                <div class="focus-category">
+                    <div class="focus-category-header">
+                        <span class="focus-category-label">HEALTHCARE</span>
+                    </div>
+                    <div class="focus-grid">
+                        <div class="focus-card">
+                            <div class="focus-icon"><i class="fas fa-heartbeat"></i></div>
+                            <h3>Healthcare Analytics</h3>
+                            <p>Análisis de datos clínicos, métricas de atención y optimización de procesos de salud.</p>
+                        </div>
+                        <div class="focus-card">
+                            <div class="focus-icon"><i class="fas fa-users"></i></div>
+                            <h3>Human-Centered Tech</h3>
+                            <p>Tecnología diseñada alrededor de las personas, combinando empatía clínica con innovación digital.</p>
+                        </div>
+                        <div class="focus-card">
+                            <div class="focus-icon"><i class="fas fa-stethoscope"></i></div>
+                            <h3>Clinical Optimization</h3>
+                            <p>Optimización de procesos terapéuticos y análisis de resultados orientados al paciente.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="focus-category">
+                    <div class="focus-category-header">
+                        <span class="focus-category-label">DATA & AI</span>
+                    </div>
+                    <div class="focus-grid">
+                        <div class="focus-card">
+                            <div class="focus-icon"><i class="fas fa-chart-line"></i></div>
+                            <h3>Data Analytics</h3>
+                            <p>Visualización de datos, KPIs, dashboards y generación de insights estratégicos.</p>
+                        </div>
+                        <div class="focus-card">
+                            <div class="focus-icon"><i class="fas fa-brain"></i></div>
+                            <h3>Artificial Intelligence</h3>
+                            <p>Machine Learning, automatización inteligente, IA aplicada y modelos predictivos.</p>
+                        </div>
+                        <div class="focus-card">
+                            <div class="focus-icon"><i class="fas fa-chart-pie"></i></div>
+                            <h3>Business Intelligence</h3>
+                            <p>Storytelling con datos y análisis estratégico para la toma de decisiones.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="about.title">Sobre mí</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p data-i18n="about.p1">Profesional analítica en transición hacia Data Analytics, combinando formación clínica en Fonoaudiología con conocimientos técnicos en Ciencia de Datos, IA y Business Intelligence.</p>
+                        <p data-i18n="about.p2">Mi experiencia en entornos clínicos y hospitalarios me ha permitido desarrollar capacidades analíticas, pensamiento estructurado y comunicación interdisciplinaria.</p>
+                        <p data-i18n="about.p3">Me apasiona construir sistemas inteligentes para mejorar la toma de decisiones, optimizar procesos y generar impacto real en el sector healthcare.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="quote">
+                            <i class="fas fa-quote-left"></i>
+                            <p data-i18n="about.quote">Transformando datos complejos en soluciones estratégicas impulsadas por IA y análisis orientado al negocio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section section-soft">
+            <div class="container">
+                <h2 class="section-title" data-i18n="experience.title">Trayectoria</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 — 2025</span>
+                            <h3 data-i18n="exp.job1">Logopeda y Fonoaudióloga</h3>
+                            <p class="timeline-company" data-i18n="exp.company1">Diversas Clínicas e Instituciones</p>
+                            <p class="timeline-location">Barcelona, Bogotá</p>
+                            <ul class="timeline-tasks">
+                                <li data-i18n="exp.task1_1">Evaluación clínica y diseño de tratamientos personalizados</li>
+                                <li data-i18n="exp.task1_2">Seguimiento analítico del progreso de pacientes</li>
+                                <li data-i18n="exp.task1_3">Comunicación con equipos interdisciplinarios</li>
+                                <li data-i18n="exp.task1_4">Gestión documental y organización de información</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2026</span>
+                            <h3 data-i18n="exp.edu1">Bootcamp Data Analytics & IA</h3>
+                            <p class="timeline-company">Upgrade Hub — Madrid</p>
+                            <ul class="timeline-tasks">
+                                <li>Python, SQL, Power BI</li>
+                                <li>Machine Learning & AI</li>
+                                <li>Business Intelligence</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023</span>
+                            <h3 data-i18n="exp.edu2">Máster en Terapia Miofuncional</h3>
+                            <p class="timeline-company">Escuela de Neuropsicología — Barcelona</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2015 — 2021</span>
+                            <h3 data-i18n="exp.edu3">Grado en Fonoaudiología</h3>
+                            <p class="timeline-company">Universidad del Rosario — Bogotá, Colombia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="skills.title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fab fa-python"></i> Data & Analytics</h3>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>ETL</span>
+                            <span>APIs</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-chart-pie"></i> Business Intelligence</h3>
+                        <div class="skill-tags">
+                            <span>Power BI</span>
+                            <span>Microsoft Fabric</span>
+                            <span>Data Visualization</span>
+                            <span>KPI Analysis</span>
+                            <span>Data Storytelling</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-brain"></i> Artificial Intelligence</h3>
+                        <div class="skill-tags">
+                            <span>Machine Learning</span>
+                            <span>Azure AI</span>
+                            <span>LLMs</span>
+                            <span>RAG</span>
+                            <span>Streamlit</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools</h3>
+                        <div class="skill-tags">
+                            <span>Git</span>
+                            <span>VS Code</span>
+                            <span>n8n</span>
+                            <span>GitHub Copilot</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="soft-skills">
+                    <h3 data-i18n="softskills.title">Soft Skills</h3>
+                    <div class="tags">
+                        <span class="tag" data-i18n="softskills.s1">Comunicación efectiva</span>
+                        <span class="tag" data-i18n="softskills.s2">Pensamiento analítico</span>
+                        <span class="tag" data-i18n="softskills.s3">Resolución de problemas</span>
+                        <span class="tag" data-i18n="softskills.s4">Adaptabilidad</span>
+                        <span class="tag" data-i18n="softskills.s5">Atención al detalle</span>
+                        <span class="tag" data-i18n="softskills.s6">Trabajo en equipo</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section section-soft">
+            <div class="container">
+                <h2 class="section-title" data-i18n="projects.title">Proyectos</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all" data-i18n="filters.all">Todos</button>
+                    <button class="filter-btn" data-filter="ai">AI</button>
+                    <button class="filter-btn" data-filter="python">Python</button>
+                    <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                    <button class="filter-btn" data-filter="viz">Visualization</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="viz">
+                        <div class="project-icon"><i class="fas fa-globe"></i></div>
+                        <h3>GeoDash Explorer</h3>
+                        <p data-i18n="proj.p1">Visualización de datos geoespaciales interactiva con mapas dinámicos.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Visualization</span>
+                        </div>
+                        <a href="https://github.com/Nicol-ael/GeoDash-Explorer-Visualizaci-n-de-Datos-Geoespaciales" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            <span data-i18n="proj.view">Ver proyecto</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="project-card" data-category="python">
+                        <div class="project-icon"><i class="fas fa-star"></i></div>
+                        <h3>Streamlit Star Wars</h3>
+                        <p data-i18n="proj.p2">Aplicación interactiva de Streamlit con datos de Star Wars.</p>
+                        <div class="project-tags">
+                            <span>Streamlit</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="https://github.com/Nicol-ael/Streamlitstarwars" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            <span data-i18n="proj.view">Ver proyecto</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="project-card" data-category="ai">
+                        <div class="project-icon"><i class="fas fa-comments"></i></div>
+                        <h3>AI Chat Analytics</h3>
+                        <p data-i18n="proj.p3">Plataforma de análisis de conversaciones con IA.</p>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>NLP</span>
+                        </div>
+                        <a href="https://github.com/Nicol-ael/ai-chat-analytics" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            <span data-i18n="proj.view">Ver proyecto</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="project-card" data-category="healthcare">
+                        <div class="project-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Autism Behaviors</h3>
+                        <p data-i18n="proj.p4">Análisis de comportamientos con modelos predictivos.</p>
+                        <div class="project-tags">
+                            <span>ML</span>
+                            <span>Healthcare</span>
+                        </div>
+                        <a href="https://github.com/Nicol-ael/Autism-Behaviors" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            <span data-i18n="proj.view">Ver proyecto</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="project-card" data-category="python">
+                        <div class="project-icon"><i class="fas fa-table"></i></div>
+                        <h3>Mini Data Explorer</h3>
+                        <p data-i18n="proj.p5">Herramienta interactiva para exploración de datasets.</p>
+                        <div class="project-tags">
+                            <span>Pandas</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="https://github.com/Nicol-ael/mini-data-explorer" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            <span data-i18n="proj.view">Ver proyecto</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="project-card" data-category="healthcare">
+                        <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
+                        <h3>Healthbrain Web</h3>
+                        <p data-i18n="proj.p6">Plataforma web para gestión de salud mental.</p>
+                        <div class="project-tags">
+                            <span>Healthcare</span>
+                            <span>Dashboards</span>
+                        </div>
+                        <a href="https://github.com/Nicol-ael/Pagina-Web-Helthbrain" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            <span data-i18n="proj.view">Ver proyecto</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="project-card" data-category="python">
+                        <div class="project-icon"><i class="fas fa-rocket"></i></div>
+                        <h3>Análisis SpaceX</h3>
+                        <p data-i18n="proj.p7">Análisis de lanzamientos de SpaceX.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>ETL</span>
+                        </div>
+                        <a href="https://github.com/Nicol-ael/An-lisis-de-Lanzamientos-SpaceX" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            <span data-i18n="proj.view">Ver proyecto</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="project-card" data-category="python">
+                        <div class="project-icon"><i class="fas fa-code"></i></div>
+                        <h3>GitHub Pages</h3>
+                        <p data-i18n="proj.p8">Proyecto demostrativo de páginas web estáticas.</p>
+                        <div class="project-tags">
+                            <span>HTML/CSS</span>
+                            <span>Web</span>
+                        </div>
+                        <a href="https://github.com/Nicol-ael/ejemplo-github-pages" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                            <span data-i18n="proj.view">Ver proyecto</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="ai.title">IA Nicol</h2>
+                <div class="ai-assistant">
+                    <div class="ai-header">
+                        <div class="ai-avatar-small">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="ai-info">
+                            <h3>IA Nicol</h3>
+                            <span class="ai-status">
+                                <span class="status-dot"></span>
+                                <span data-i18n="ai.status">En línea</span>
+                            </span>
+                        </div>
+                        <button class="ai-clear" id="aiClear" title="Limpiar conversación">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="ai-body">
+                        <div class="ai-options-panel" id="aiOptionsPanel">
+                            <p class="ai-prompt">Selecciona un tema para obtener información:</p>
+                            <div class="ai-buttons-grid">
+                                <button class="ai-topic-btn" data-topic="experience">
+                                    <i class="fas fa-briefcase"></i>
+                                    <span data-i18n="ai.opt1">Experiencia</span>
+                                </button>
+                                <button class="ai-topic-btn" data-topic="skills">
+                                    <i class="fas fa-code"></i>
+                                    <span data-i18n="ai.opt2">Skills</span>
+                                </button>
+                                <button class="ai-topic-btn" data-topic="projects">
+                                    <i class="fas fa-folder"></i>
+                                    <span data-i18n="ai.opt3">Proyectos</span>
+                                </button>
+                                <button class="ai-topic-btn" data-topic="contact">
+                                    <i class="fas fa-envelope"></i>
+                                    <span data-i18n="ai.opt4">Contacto</span>
+                                </button>
+                                <button class="ai-topic-btn" data-topic="healthcare">
+                                    <i class="fas fa-heartbeat"></i>
+                                    <span data-i18n="ai.opt5">Healthcare AI</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="ai-response-area" id="aiResponseArea"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-soft">
+            <div class="container">
+                <h2 class="section-title" data-i18n="contact.title">Contacto</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="label">Email</span>
+                                <a href="mailto:nicolescobar3330@gmail.com">nicolescobar3330@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="label">Teléfono</span>
+                                <a href="tel:+34671304754">+34 671 304 754</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="label" data-i18n="contact.location">Ubicación</span>
+                                <span>Marbella, España</span>
+                            </div>
+                        </div>
+                        <div class="contact-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25697.58683953868!2d-4.8863824!3d36.5153072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72d03db3e8c0a3%3A0x6e15dbb8e4b4e2e4!2sMarbella%2C%20M%C3%A1laga%2C%20Spain!5e0!3m2!1sen!2s!4v1630000000000!5m2!1sen!2s" width="100%" height="180" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="contact-cta">
+                        <h3 data-i18n="contact.cta_title">¿Necesitas ayuda con tus datos?</h3>
+                        <p data-i18n="contact.cta_text">Estoy disponible para proyectos de Data Analytics, AI y Healthcare. ¡Hablemos!</p>
+                        <div class="cta-buttons">
+                            <a href="https://wa.me/34671304754" target="_blank" class="btn btn-whatsapp-full">
+                                <i class="fab fa-whatsapp"></i>
+                                <span data-i18n="contact.whatsapp">WhatsApp</span>
+                            </a>
+                            <a href="mailto:nicolescobar3330@gmail.com" class="btn btn-email">
+                                <i class="fas fa-envelope"></i>
+                                <span data-i18n="contact.email">Email</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="availability" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="availability.title">Disponibilidad</h2>
+                <div class="availability-grid">
+                    <div class="availability-item">
+                        <i class="fas fa-check"></i>
+                        <span data-i18n="avail.practices">Prácticas</span>
+                    </div>
+                    <div class="availability-item">
+                        <i class="fas fa-check"></i>
+                        <span data-i18n="avail.junior">Junior Roles</span>
+                    </div>
+                    <div class="availability-item">
+                        <i class="fas fa-check"></i>
+                        <span>Freelance</span>
+                    </div>
+                    <div class="availability-item">
+                        <i class="fas fa-check"></i>
+                        <span>Remote</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo">Nicol Escobar</span>
+                    <p data-i18n="footer.tagline">Data Analyst & AI Healthcare</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/nicolescobardatayhealthcare/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Nicol-ael" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/34671304754" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:nicolescobar3330@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 Nicol Escobar. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
